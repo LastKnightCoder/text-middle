@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import TextMiddle from "./TextMiddleCanvas";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{
+      display: 'flex'
+    }}>
+      <TextMiddle text={"查看更多"} color={"deepskyblue"} height={60} fontSize={26} />
+      <TextMiddle text={"查看更多"} color={"deepskyblue"} height={60} fontSize={26} style={{width: '1rem'}}/>
+      <TextMiddle text={"查看更多"} color={"deepskyblue"} height={60} fontSize={26} />
+      <TextMiddle text={"查看更多"} color={"deepskyblue"} height={60} fontSize={26} />
+      <TextMiddle text={"查看更多"} color={"deepskyblue"} height={60} fontSize={26} />
+      <TextMiddle text={"查看更多"} color={"deepskyblue"} height={60} fontSize={26} />
+      <TextMiddle text={"查看更多"} color={"deepskyblue"} height={60} fontSize={26} />
     </div>
   );
 }
